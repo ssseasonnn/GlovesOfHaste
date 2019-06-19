@@ -14,32 +14,32 @@ fun setDebug(flag: Boolean) {
 }
 
 fun <T> T.logd(tag: String = ""): T {
-    innerLog(::d, ::d, tag)
+    innerToast(::d, ::d, tag)
     return this
 }
 
 
 fun <T> T.logi(tag: String = ""): T {
-    innerLog(::i, ::i, tag)
+    innerToast(::i, ::i, tag)
     return this
 }
 
 fun <T> T.logw(tag: String = ""): T {
-    innerLog(::w, ::w, tag)
+    innerToast(::w, ::w, tag)
     return this
 }
 
 fun <T> T.loge(tag: String = ""): T {
-    innerLog(::e, ::e, tag)
+    innerToast(::e, ::e, tag)
     return this
 }
 
 fun <T> T.logv(tag: String = ""): T {
-    innerLog(::v, ::v, tag)
+    innerToast(::v, ::v, tag)
     return this
 }
 
-private fun <T> T.innerLog(
+private fun <T> T.innerToast(
     function1: (String, String, Throwable) -> Int,
     function2: (String, String?) -> Int,
     tag: String

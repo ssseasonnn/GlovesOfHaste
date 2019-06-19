@@ -1,1 +1,11 @@
-<manifest package="zlc.season.glovesofhaste"/>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="zlc.season.glovesofhaste">
+
+    <application>
+        <provider
+                android:name=".MagicProvider"
+                android:exported="false"
+                android:multiprocess="true"
+                android:authorities="${applicationId}.glovesofhaste.magic"/>
+    </application>
+</manifest>
