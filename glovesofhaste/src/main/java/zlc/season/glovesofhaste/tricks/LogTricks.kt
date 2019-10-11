@@ -1,4 +1,4 @@
-package zlc.season.glovesofhaste
+package zlc.season.glovesofhaste.tricks
 
 import android.util.Log.*
 
@@ -17,7 +17,6 @@ fun <T> T.logd(tag: String = ""): T {
     innerToast(::d, ::d, tag)
     return this
 }
-
 
 fun <T> T.logi(tag: String = ""): T {
     innerToast(::i, ::i, tag)

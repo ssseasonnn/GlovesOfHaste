@@ -1,4 +1,4 @@
-package zlc.season.glovesofhaste
+package zlc.season.glovesofhaste.tricks
 
 import io.reactivex.disposables.Disposable
 import io.reactivex.plugins.RxJavaPlugins

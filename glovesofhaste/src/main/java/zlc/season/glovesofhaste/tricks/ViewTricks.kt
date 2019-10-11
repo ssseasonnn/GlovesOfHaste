@@ -1,4 +1,4 @@
-package zlc.season.glovesofhaste
+package zlc.season.glovesofhaste.tricks
 
 import android.view.LayoutInflater
 import android.view.View

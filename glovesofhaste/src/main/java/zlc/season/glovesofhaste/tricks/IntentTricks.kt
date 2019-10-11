@@ -1,4 +1,4 @@
-package zlc.season.glovesofhaste
+package zlc.season.glovesofhaste.tricks
 
 import android.content.Intent
 import android.os.Parcelable
